@@ -1,0 +1,58 @@
+{
+    "name": "@astro-social/twitter",
+    "version": "0.0.0",
+    "description": "An Astro component that contains embeds for Discord, Facebook, Github, Instagram, Linkedin, and Twitter.",
+
+    "access": "public",
+    "type": "module",
+    
+    "types": "@types/index.d.ts",
+    "main": "dist/index.cjs",
+    "modules": "dist/index.mjs",
+    
+    "license": "GPL-3.0",
+    "keywords": [
+        "astro-component", "social", "twitter"
+    ],
+
+    "exports": {
+        ".": {
+            "require": "./dist/index.cjs",
+            "import": "./dist/index.mjs",
+            "default": "./dist/index.mjs"
+        },
+        "./dist/*": "./dist/*.mjs"
+    },
+
+    "files": [
+        "dist",
+        "src"
+    ],
+    
+    "directories": {
+        "dist": "./dist",
+        "src": "./src"
+    },
+
+    "peerDependencies": {
+        "@rebelchris/astro-static-tweet": "^0.0.6",
+        "dotenv": "^10.0.0"
+    },
+
+    "author": {
+        "name": "Okiki Ojo",
+        "email": "hey@okikio.dev",
+        "url": "https://blog.okikio.dev"
+    },
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/okikio/astro-social"
+    },
+
+    "bugs": {
+        "url": "https://github.com/okikio/astro-social/issues"
+    },
+
+    "homepage": "https://github.com/okikio/astro-social/tree/master/packages/twitter#readme"
+}
